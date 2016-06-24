@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #ddd;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 90px auto;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+a {
+    border: 1px solid #08728b;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-right: 40px;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+}
+
+a:hover {
+    background-color: #08728b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.upDel {
+    margin-right: 0 !important;
+}
+
+h1 {
+    margin: 10px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+hr{
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+#home_container {
+    height: 300px;
+}
+
+.inline {
+    display: inline;
+}
+
+ h2 {
+     float: right;
+     margin: 0 40px 16px 0;
+     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.head_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 86px;
+    width: 100%;
+    margin: 0 0 100px 0;
+    padding: 0 0 0 20px;
+    background-color: #0EBFE9;
+    color: #fff;
+    border-bottom: 4px solid #08728b;
+}
+
+#home_container a {
+    display: block;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border: solid 1px #08728b;
+    border-radius: 4px;
+    width: 20%;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+}
+
+#home_container a:hover {
+    background-color: #08728b;
+    color: #fff;
+    cursor: pointer;
+}
+
+input, textarea {
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: 1px solid #08728b;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #fff;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #08728b;
+    color: #fff;
+}
+
+#logout {
+    clear: both;
+    width: 50px !important;
+    padding: 4px 8px !important;
+    float: right;
+}
+
+#work_border {
+    border: 1px solid #08728b;
+    border-radius: 4px;
+    padding: 12px 10px 0 10px;
+}
